@@ -30,9 +30,9 @@
     <div class="row">
       <mat-radio-group aria-label="Select an option" formControlName="gender">
         <mat-label><b>Gender</b></mat-label>
-        <mat-radio-button value="male">Male</mat-radio-button>
-        <mat-radio-button value="female">Female</mat-radio-button>
-        <mat-radio-button value="others">Others</mat-radio-button>
+        <mat-radio-button value="Male">Male</mat-radio-button>
+        <mat-radio-button value="Female">Female</mat-radio-button>
+        <mat-radio-button value="Others">Others</mat-radio-button>
       </mat-radio-group>
     </div>
     <div class="row">
@@ -47,9 +47,16 @@
     </div>
   </div>
   <div mat-dialog-actions class="action">
-    <button mat-raised-button color="warn">Cancel</button>
+    <button
+      mat-raised-button
+      color="warn"
+      type="button"
+      (click)="handleClose()"
+    >
+      Cancel
+    </button>
     <button mat-raised-button color="primary" type="submit">
-      Add Employee
+      {{ data ? "Update" : "Add Employee" }}
     </button>
   </div>
 </form>

@@ -18,21 +18,21 @@
   },
   "employee": [
     {
-      "firstName": "Mark Denver",
-      "lastName": "Perez",
-      "email": "mark123@gmail.com",
-      "dob": "2000-12-22T16:00:00.000Z",
-      "gender": "male",
+      "firstName": "Jan Corinne",
+      "lastName": "Reyes",
+      "email": "corinne@gmail.com",
+      "dob": "2000-01-13T16:00:00.000Z",
+      "gender": "Female",
       "position": "Full-Stack Dev",
       "id": 1
     },
     {
-      "firstName": "Jan Corinne",
-      "lastName": "Reyes",
-      "email": "corinne123@gmail.com",
-      "dob": "2000-01-13T16:00:00.000Z",
-      "gender": "male",
-      "position": "Data-Analyst",
+      "firstName": "Mark Denver",
+      "lastName": "Perez",
+      "email": "mark123@gmail.com",
+      "dob": "2000-12-22T16:00:00.000Z",
+      "gender": "Male",
+      "position": "Full-Stack Dev",
       "id": 2
     }
   ]
